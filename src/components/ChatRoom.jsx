@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 import "./ChatRoom.css"; // Make sure this file contains the professional styles
 
-const socket = io("http://localhost:5000"); // Backend URL
+const socket = io("https://chatback-wfed.onrender.com");
+
 
 const ChatRoom = ({ roomId }) => {
   const [msg, setMsg] = useState("");
