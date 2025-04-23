@@ -1,0 +1,123 @@
+/* General Home Page Container */
+.home-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    padding: 10px;
+    margin: 10px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #0077cc;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .hero-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Create Room Button */
+  .hero-section .cta-button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background-color: #ffffff;
+    color: #0077cc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 15px 0;
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .hero-section .cta-button:hover {
+    background-color: #f4f4f4;
+  }
+  
+  /* Room Code Section */
+  .room-code-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Input for Room Code */
+  .room-input {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin-bottom: 15px; /* Adding space between input and button */
+  }
+  
+  .room-input:focus {
+    border-color: #0077cc;
+  }
+  
+  .room-input::placeholder {
+    color: #aaa;
+  }
+  
+  .room-input:disabled {
+    background-color: #e0e0e0;
+  }
+  
+  /* Join Room Button */
+  .room-code-area button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background-color: #ffffff;
+    color: #0077cc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px; /* Adding space between input and button */
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .room-code-area button:hover {
+    background-color: #f4f4f4;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
